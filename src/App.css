@@ -1,0 +1,61 @@
+body{
+    min-height: 100vh;
+    background-color: #FFE8E3;
+    font-family: "Raleway";
+}
+
+/* DAY ONE START */
+
+.main-title{
+    border: 2px solid salmon;
+    text-align: center;
+    padding: .5rem 0;
+}
+
+.title{
+    margin: .5rem 0;
+    /* border: 2px solid salmon; */
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.entry{
+    text-align: center;
+    
+}
+
+.list-display{
+    border: 2px solid rgb(240, 240, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 2px;
+    column-gap: 2px;
+    padding: 1rem;
+}
+
+.card{
+    border: 2px solid green;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.card>div:nth-child(1){
+    font-weight: 600;
+}
+
+.card>div{
+    margin-bottom: 4px;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url(./assets/fonts/Raleway/static/Raleway-Regular.ttf);
+}
+
+/* DAY ONE END */
+
+/* DAY TWO START */
+
+/* DAY TWO END */
+
